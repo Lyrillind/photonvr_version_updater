@@ -1,0 +1,28 @@
+{
+  "name": "photonvr_version_updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel -o index.js -w src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Murriouz@github.com/Murriouz/photonvr_version_updater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Murriouz/photonvr_version_updater/issues"
+  },
+  "homepage": "https://github.com/Murriouz/photonvr_version_updater#readme",
+  "dependencies": {
+    "leancloud-storage": "^1.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
