@@ -6,11 +6,16 @@ var _leancloudStorage2 = _interopRequireDefault(_leancloudStorage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var appId = 'VPVzwjElxgAwTwJBbdEwoMlx-gzGzoHsz';
-var appKey = 'h9XawPpBQqLHEMj7eDFfVIU5';
-_leancloudStorage2.default.init({ appId: appId, appKey: appKey });
+var devServer = {
+  appId: 'DmKxXTYX9AaXDHbtBHHgEUjr-gzGzoHsz',
+  appKey: 'D80j840PKhyq21dW7aJnwKrJ'
+};
+var onlineServer = {
+  appId: 'VPVzwjElxgAwTwJBbdEwoMlx-gzGzoHsz',
+  appKey: 'h9XawPpBQqLHEMj7eDFfVIU5'
+};
 
-var versionNumber = '0.9.18b';
+_leancloudStorage2.default.init(devServer);
 
 var Version = _leancloudStorage2.default.Object.extend('EditorVersions');
 var newVersion = new Version();
